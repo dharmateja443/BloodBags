@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RadioGroup
+        android:layout_width="354dp"
+        android:layout_height="462dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@drawable/checkbox_selector"
+            android:padding="@dimen/dp_5"
+            android:text="A+"
+            android:textColor="@drawable/btn_gry_to_red_text_selector"
+            android:textSize="15sp"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@drawable/checkbox_selector"
+            android:padding="@dimen/dp_5"
+            android:text="A-"
+            android:textColor="@drawable/btn_gry_to_red_text_selector"
+            android:textSize="15sp" />
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@drawable/checkbox_selector"
+            android:padding="@dimen/dp_5"
+            android:text="B+"
+            android:textColor="@drawable/btn_gry_to_red_text_selector"
+            android:textSize="15sp" />
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@drawable/checkbox_selector"
+            android:padding="@dimen/dp_5"
+            android:text="B-"
+            android:textColor="@drawable/btn_gry_to_red_text_selector"
+            android:textSize="15sp" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@drawable/checkbox_selector"
+                android:padding="@dimen/dp_5"
+                android:text="AB+"
+                android:textColor="@drawable/btn_gry_to_red_text_selector"
+                android:textSize="15sp"
+                tools:layout_editor_absoluteX="112dp"
+                tools:layout_editor_absoluteY="284dp" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@drawable/checkbox_selector"
+                android:padding="@dimen/dp_5"
+                android:text="AB-"
+                android:textColor="@drawable/btn_gry_to_red_text_selector"
+                android:textSize="15sp"
+                tools:layout_editor_absoluteX="127dp"
+                tools:layout_editor_absoluteY="195dp" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@drawable/checkbox_selector"
+                android:padding="@dimen/dp_5"
+                android:text="O+"
+                android:textColor="@drawable/btn_gry_to_red_text_selector"
+                android:textSize="15sp"
+                tools:layout_editor_absoluteX="104dp"
+                tools:layout_editor_absoluteY="119dp" />
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@drawable/checkbox_selector"
+            android:padding="@dimen/dp_5"
+            android:text="O-"
+            android:textColor="@drawable/btn_gry_to_red_text_selector"
+            android:textSize="15sp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="48dp" />
+    </RadioGroup>
+</android.support.constraint.ConstraintLayout>

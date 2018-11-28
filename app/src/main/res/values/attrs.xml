@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomTextView"></declare-styleable>
+    <declare-styleable name="CustomTextView_fontName"></declare-styleable>
+    <declare-styleable name="BloodGroupButton"></declare-styleable>
+    <attr name="radio_text" format="string" />
+</resources>
